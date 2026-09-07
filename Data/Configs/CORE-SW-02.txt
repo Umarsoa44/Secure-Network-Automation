@@ -1,0 +1,4 @@
+hostname CORE-SW-02
+ip ssh version 2
+service password-encryption
+no ip http server

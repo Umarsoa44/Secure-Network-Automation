@@ -1,0 +1,64 @@
+==================================================
+       SECURE NETWORK AUTOMATION REPORT
+==================================================
+
+Assessment Date: 2026-09-07
+Devices Assessed: 11
+
+--------------------------------------------------
+DEVICE ASSESSMENT RESULTS
+--------------------------------------------------
+
+Device: CORE-RTR-01 (192.168.10.1)
+Status: CONFIG NOT FOUND
+
+Device: DIST-SW-01 (192.168.20.1)
+Status: CONFIG NOT FOUND
+
+Device: ACCESS-SW-01 (192.168.30.1)
+Status: CONFIG NOT FOUND
+
+Device: FW-01 (192.168.40.1)
+Status: CONFIG NOT FOUND
+
+Device: CORE-RTR-01 (192.168.10.1)
+Status: CONFIG NOT FOUND
+
+Device: DIST-SW-01 (192.168.20.1)
+Status: CONFIG NOT FOUND
+
+Device: ACCESS-SW-01 (192.168.30.1)
+Status: CONFIG NOT FOUND
+
+Device: FW-01 (192.168.40.1)
+Status: CONFIG NOT FOUND
+
+Device: EDGE-RTR-02 (192.168.10.2)
+Status: NON-COMPLIANT
+Security Score: 15%
+Findings:
+  - [HIGH] SSH version 2 not explicitly enabled
+  - [MEDIUM] Insecure HTTP management server enabled
+  - [LOW] Password encryption service not enabled
+  - [LOW] Regulatory login banner (MOTD) missing
+
+Device: CORE-SW-02 (192.168.20.2)
+Status: NON-COMPLIANT
+Security Score: 90%
+Findings:
+  - [LOW] Regulatory login banner (MOTD) missing
+
+Device: DMZ-FW-02 (192.168.40.2)
+Status: NON-COMPLIANT
+Security Score: 40%
+Findings:
+  - [HIGH] Telnet management protocol enabled
+  - [LOW] Password encryption service not enabled
+  - [LOW] Regulatory login banner (MOTD) missing
+
+--------------------------------------------------
+SUMMARY STATISTICS
+--------------------------------------------------
+Compliant Devices     : 0
+Non-Compliant Devices : 3
+==================================================

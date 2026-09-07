@@ -1,0 +1,8 @@
+{
+    "ssh_version": 2,
+    "telnet_allowed": false,
+    "http_management_allowed": false,
+    "password_encryption_required": true,
+    "unused_interfaces_should_be_disabled": true,
+    "banner_required": true
+}

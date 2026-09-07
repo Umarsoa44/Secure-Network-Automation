@@ -1,0 +1,12 @@
+hostname,ip_address,device_type,environment
+CORE-RTR-01,192.168.10.1,router,production
+DIST-SW-01,192.168.20.1,switch,production
+ACCESS-SW-01,192.168.30.1,switch,production
+FW-01,192.168.40.1,firewall,productionhostname,ip_address,device_type,environment
+CORE-RTR-01,192.168.10.1,router,production
+DIST-SW-01,192.168.20.1,switch,production
+ACCESS-SW-01,192.168.30.1,switch,production
+FW-01,192.168.40.1,firewall,production
+EDGE-RTR-02,192.168.10.2,router,production
+CORE-SW-02,192.168.20.2,switch,production
+DMZ-FW-02,192.168.40.2,firewall,staging

@@ -1,0 +1,4 @@
+hostname DMZ-FW-02
+ip ssh version 2
+line vty 0 4
+ transport input telnet ssh
